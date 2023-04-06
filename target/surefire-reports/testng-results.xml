@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-06T20:40:32 ART" name="Command line suite" finished-at="2023-04-06T20:40:54 ART" duration-ms="21581">
+    <groups>
+    </groups>
+    <test started-at="2023-04-06T20:40:32 ART" name="Command line test" finished-at="2023-04-06T20:40:54 ART" duration-ms="21581">
+      <class name="mis_test.Test_Domicilio1">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:mis_test.Test_Domicilio1@4604b900]" started-at="2023-04-06T20:40:42 ART" name="setUpMethod" finished-at="2023-04-06T20:40:45 ART" duration-ms="2869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="Test_Domicilio1()[pri:0, instance:mis_test.Test_Domicilio1@4604b900]" started-at="2023-04-06T20:40:45 ART" name="Test_Domicilio1" finished-at="2023-04-06T20:40:54 ART" duration-ms="8645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Domicilio1 -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:mis_test.Test_Domicilio1@4604b900]" started-at="2023-04-06T20:40:54 ART" name="tearDownMethod" finished-at="2023-04-06T20:40:54 ART" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- mis_test.Test_Domicilio1 -->
+      <class name="mis_test.Test_Domicilio">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:mis_test.Test_Domicilio@253c1256]" started-at="2023-04-06T20:40:32 ART" name="setUpMethod" finished-at="2023-04-06T20:40:34 ART" duration-ms="2024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="Test_Domicilio()[pri:0, instance:mis_test.Test_Domicilio@253c1256]" started-at="2023-04-06T20:40:34 ART" name="Test_Domicilio" finished-at="2023-04-06T20:40:42 ART" duration-ms="7930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Domicilio -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:mis_test.Test_Domicilio@253c1256]" started-at="2023-04-06T20:40:42 ART" name="tearDownMethod" finished-at="2023-04-06T20:40:42 ART" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- mis_test.Test_Domicilio -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
