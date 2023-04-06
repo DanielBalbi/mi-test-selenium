@@ -15,7 +15,7 @@ WebDriver mi_driver = mis_acciones.conectar();
 
     @BeforeMethod
     public void setUpMethod() throws Exception {     
-        mi_driver.get("https://www.emaras.com.ar/");    
+        mi_driver.get("https://www.pppppppppemaras.com.ar/");    
     }
     
     @Test
@@ -29,14 +29,14 @@ WebDriver mi_driver = mis_acciones.conectar();
                                 datos.consorcios.clave);
 
     mis_acciones.click_id(pantallas.login.btn_ingresar);
-             /////////////////////////  ingresando en la pantalla de la selección del edificio
-    //// seleccion del edificio. Renglón nro 3
+             /////////////////////////  ingresando en la pantalla de la selecciÃ³n del edificio
+    //// seleccion del edificio. RenglÃ³n nro 3
      mis_acciones.click_css(pantallas.consorcios.nro_consorcio);
     
-    ///// despliega el menú "Usuarios" 
+    ///// despliega el menÃº "Usuarios" 
     mi_driver.findElement(By.cssSelector(pantallas.menu.usuarios)).click();
     Thread.sleep(1000);
-    // hacé click en la opción "Datos Administración" dentro del menu usuarios
+    // hacÃ© click en la opciÃ³n "Datos AdministraciÃ³n" dentro del menu usuarios
     mi_driver.findElement(By.cssSelector(pantallas.menu.administracion)).click();
     Thread.sleep(1000);  
     /// cambio datos del domicilio
