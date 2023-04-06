@@ -15,7 +15,7 @@ WebDriver mi_driver = mis_acciones.conectar();
 
     @BeforeMethod
     public void setUpMethod() throws Exception {     
-        mi_driver.get("https://www.pppppppppemaras.com.ar/");    
+        mi_driver.get("https://www.emaras.com.ar/");    
     }
     
     @Test
