@@ -37,7 +37,7 @@ WebDriver mi_driver = mis_acciones.conectar();
     mi_driver.findElement(By.cssSelector(pantallas.menu.usuarios)).click();
     Thread.sleep(1000);
     // hacé click en la opción "Datos Administración" dentro del menu usuarios
-    //mi_driver.findElement(By.cssSelector(pantallas.menu.administracion)).click();
+    mi_driver.findElement(By.cssSelector(pantallas.menu.administracion)).click();
     Thread.sleep(1000);  
     /// cambio datos del domicilio
     mi_driver.findElement(By.name(pantallas.administracion.txt_domicilio)).click();
@@ -46,7 +46,7 @@ WebDriver mi_driver = mis_acciones.conectar();
     mis_acciones.escribir_Name(pantallas.administracion.txt_domicilio
                                 , datos.consorcios.calle);
 
-    //mis_acciones.esperar(2000);
+    mis_acciones.esperar(2000);
     mi_driver.findElement(By.cssSelector(pantallas.administracion.btn_grabar)).click();
     mi_driver.findElement(By.cssSelector(pantallas.administracion.lnk_cerrar_sesion)).click();
     }
